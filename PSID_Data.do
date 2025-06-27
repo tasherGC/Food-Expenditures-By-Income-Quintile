@@ -103,7 +103,7 @@ drop if hd_age_c == 999
 drop if hd_marr_stat == 9
 replace hd_marr_stat = 0 if inlist(hd_marr_stat, 2, 3, 4, 5)
 replace hd_home_own = 0 if hd_home_own == 5
-replace hd_home_own = . if hd_home_own == 8
+replace hd_home_own = 0 if hd_home_own == 8
 
 
 drop if year < 1999
