@@ -6,4 +6,5 @@ Optional steps for deriving data directly from PSID raw files are as follows:
 
 Alternatively, download cleaned PSID file from: 
 
+Download supplementary data files infl.dta, PSID_state_codes.dta
 Run Analysis.do for all plots and tables.
